@@ -1,4 +1,4 @@
-FILEPATH=r"C:\Users\MY\PycharmProjects\pythonProject\demo\files\todo.txt"
+FILEPATH=r"todo.txt"
 def get_todos(filepath=FILEPATH):  #default parameter
     with open(filepath, 'r') as file:
         todos = file.readlines()
